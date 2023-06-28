@@ -6,7 +6,6 @@
 #define CREATE_KEY_ID 'a'
 #define MESSAGE "Hello world"
 
-
 void print_key(key_t key){ 
     printf("%d", key);
 }

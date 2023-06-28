@@ -1,6 +1,6 @@
 FROM gcc:11.3.0
 COPY  src/ src/
-WORKDIR /src
-RUN make
+COPY  start.sh  .
+RUN make -C /src
 RUN chmod +x ./start.sh
 CMD ["./start.sh"]
