@@ -15,3 +15,6 @@ commom: create_build_dir
 
 create_build_dir:
 	mkdir -p $(build_dir)
+
+clean:
+	rm -R $(build_dir)
