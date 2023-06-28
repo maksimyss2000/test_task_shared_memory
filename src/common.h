@@ -10,6 +10,6 @@
 #define ERROR_ATTACH_SEGMENT -3
 #define ERROR_DELETE_SEGMENT -4
 
-int  delete_segment(int shmid);
+int delete_segment(int shmid);
 int get_segment(key_t key, int mask);
 void* attach_segment(int shmid);
